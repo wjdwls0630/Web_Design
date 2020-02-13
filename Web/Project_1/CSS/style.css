@@ -1,0 +1,116 @@
+/*웹 구조 코드*/
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+
+}
+a:hover{color:green;}
+ol {
+  font-size: 30px;
+  border-right: 1px solid gray;
+  margin: 0;
+  padding: 30px;
+  padding-left: 50px;
+  width: 130px;
+
+}
+
+dl {
+  margin: 0;
+}
+
+dl ul {
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+dt {
+  margin: : 0;
+  font-size: 18px;
+}
+
+#active {
+  color: red;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 211px 1fr;
+  border-bottom: 1px solid gray;
+}
+
+#maintext {
+  padding-left: 33px;
+  padding-top: 33px;
+}
+@media(max-width:800px) {
+  #grid {
+    display: block;
+  }
+  ol {
+    border-right: none;
+  }
+  h1 {
+    border-bottom: none;
+  }
+}
+
+.button {
+width : 125px;
+background-color: #4CAF50; /* Green */
+border: none;
+border-radius: 12px;
+color: white;
+padding: 16px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+
+}
+.button1{
+background-color: white;
+color: black;
+border: 2px solid #4CAF50;
+box-shadow: 0 9px #999;
+}
+.button1:hover{
+background-color: #4CAF50;
+color: white;
+}
+.button1:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button2:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+
+
+/*웹 구조 코드*/

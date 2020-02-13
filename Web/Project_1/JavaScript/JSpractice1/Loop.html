@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS-Loop</title>
+    <link rel="stylesheet" href="../../CSS/style.css">
+  </head>
+  <body>
+    <button class="button button2" onclick="location.href='../JSpractice.html'">Go Back</button>
+    <h1>Loop</h1>
+    <h2>While Loop</h2>
+    <script type="text/javascript">
+    var a = 0;
+    while(a<3){
+      document.write("<li>A</li>");
+      a=a+1;
+    }
+    </script>
+    <h2>While Loop 2</h2>
+    <script type="text/javascript">
+    var num=["A","B","C","D"];
+    var b=0;
+    while(b<num.length){
+      document.write(num[b]);
+      b=b+1;
+    }
+
+
+    </script>
+    <h2>for Loop</h2>
+    <script type="text/javascript">
+    var list=["a","b","c","d"];
+    for(var i in list){
+      document.write("i : "+i+"<br>");
+      document.write("list[i] : "+list[i]+"<br>");
+    }
+
+    </script>
+  </body>
+</html>

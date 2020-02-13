@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS-Object</title>
+  <link rel="stylesheet" href="../../CSS/style.css">
+</head>
+
+<body>
+  <button class="button button2" onclick="location.href='../JSpractice.html'">Go Back</button>
+  <h1>Object</h1>
+  <script type="text/javascript">
+    var Fourcal = {
+      "hello": "JavaScript",
+      "activate": "Calculation",
+
+      sum: function(a, b) {
+        return a + b;
+      },
+      sub: function(a, b) {
+        return a - b;
+      },
+      mul: function(a, b) {
+        return a * b;
+
+      },
+      div: function(a, b) {
+        return a / b;
+      }
+    }
+  </script>
+  <h2>Show Object_Property</h2>
+  <script type="text/javascript">
+    document.write("Hello " + Fourcal.hello + "<br>");
+    document.write("What is Fourcal? " + Fourcal.activate + "<br>");
+    Fourcal.yes = "Do you want Fourcal?"
+    document.write(Fourcal.yes)
+  </script>
+  <h2>Show Object_Function</h2>
+  <script type="text/javascript">
+    document.write("5+6 = " + Fourcal.sum(5, 6));
+    document.wrtie("It can also subtraction, multiplication, division<br>"
+      "7-4 = " + Fourcal.sub(7, 4) + "<br>"
+      "7X4 = " + Fourcal.mul(7, 4) + "<br>"
+      "7/4 = " + Fourcal.div(7 / 4) + "<br>"
+    )
+  </script>
+
+  <form action="Process_Caculate.py" method="post">
+    <fieldset style="width :500px; height :300px;">
+      <legend>Calculator</legend>
+      First Number:
+      <p>
+        <input type="text" name="a" placeholder="First_number">
+      </p>Second Number:
+      <p><input type="text" name="a" placeholder="Second_number">
+      </p>
+      <input type="submit">
+    </fieldset>
+
+
+
+
+  </form>
+
+
+
+
+</body>
+
+</html>
